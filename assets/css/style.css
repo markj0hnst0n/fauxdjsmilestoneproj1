@@ -1,6 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
+
+/*-----------------------------------------Header */
+
+
 #logo{
-  float : left;
-  width: 120px;
-  vertical-align: middle;
-  font-size: 400%;
+color: #007bff;
+font-family: 'Mukta', sans-serif;
+font-weight: 600;
+float : left;
+width: 120px;
+vertical-align: middle;
+font-size: 430%;
+}
+
+nav li{
+font-size: 200%;
+font-family: "Mukta", sans-serif;
+float: right;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 123, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #007bff;
+  border-width: 2px;
+} 
+
+/*-----------------------------------------Homepage styling */
+
+#hero-image{
+  height: 400px;
+  width: 100%;
+  background: url("../images/fauximage.jpg") no-repeat center center;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill: forwards;
+}
+
+/*-----------------------------------------Footer */
+
+#icon-size{
+    font-size: 48px;
+    text-align: center;
 }
