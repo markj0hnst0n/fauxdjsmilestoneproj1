@@ -1,42 +1,112 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
 
+/*-----------------------------------------Colours */
+
+.bg-colour{
+background-color: #dd85d7;
+}
+
+.font-color{
+color: #95d0fc;
+}
+
+
 /*-----------------------------------------Header */
 
 
 #logo{
-color: #007bff;
+color: #95d0fc;
 font-family: 'Mukta', sans-serif;
 font-weight: 600;
-float : left;
-width: 120px;
-vertical-align: middle;
 font-size: 430%;
+display: inline-block;
+  border: 5px solid #000;
+  padding: 10px;
 }
 
 nav li{
 font-size: 200%;
+color: #a2cffe;
 font-family: "Mukta", sans-serif;
 float: right;
 }
 
+.nav-item a:hover{
+color: #000;
+}
+
+.active{
+  border-bottom: 2px solid #000;
+}
+
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 123, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(162, 207, 254)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: #007bff;
+  border-color: #000;
   border-width: 2px;
 } 
 
 /*-----------------------------------------Homepage styling */
 
+.hero-outer{
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
 #hero-image{
   height: 400px;
   width: 100%;
   background: url("../images/fauximage.jpg") no-repeat center center;
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill: forwards;
+  }
+
+
+.book-us-button {
+font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+border: solid #000 3px;
+  border-radius: 50%;
+padding-top: 60px;
+
+  background-color: #95d0fc;
+
+  bottom: 100px;
+  right: 250px;
+  position: absolute;
+}
+
+section a{
+    color: #000;
+}
+
+section a:hover{
+    text-decoration: none;
+    color: #dd85d7;
+}
+
+.paragraph-container{
+    text-align: center;
+}
+
+.paragraph{
+    font-family: "Lato", sans-serif;
+    width: 400px;
+    display: inline-block;
+}
+
+.col a{
+    color: #95d0fc;
+}
+
+.col a:hover{
+    color: #000;
 }
 
 /*-----------------------------------------Footer */
@@ -44,4 +114,9 @@ float: right;
 #icon-size{
     font-size: 48px;
     text-align: center;
+}
+
+@media screen and (max-width:943px){
+.book-us-button{
+  left: 120px;
 }
