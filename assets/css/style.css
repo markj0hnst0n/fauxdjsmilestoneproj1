@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Mukta:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Mukta:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700|Sriracha:100,200,300,400,500,600,700');
 
 /*-----------------------------------------Colours */
 
@@ -65,19 +65,20 @@ color: #000;
 
 
 .book-us-button {
-font-family: "Lato", sans-serif;
+font-family: "Sriracha", sans-serif;
   text-transform: uppercase;
   color: #000;
   text-align: center;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150;
 border: solid #000 3px;
   border-radius: 50%;
-padding-top: 60px;
+padding-top: 35px;
+padding-bottom: 20px;
 
   background-color: #95d0fc;
 
-  bottom: 100px;
+  bottom: 150px;
   right: 250px;
   position: absolute;
 }
@@ -109,6 +110,10 @@ section a:hover{
     color: #000;
 }
 
+.contact-form{
+    
+}
+
 /*-----------------------------------------Footer */
 
 #icon-size{
@@ -118,5 +123,5 @@ section a:hover{
 
 @media screen and (max-width:943px){
 .book-us-button{
-  left: 120px;
+  left: 200px;
 }
