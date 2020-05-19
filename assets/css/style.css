@@ -19,50 +19,23 @@ color: #95d0fc;
 font-family: 'Mukta', sans-serif;
 font-weight: 600;
 font-size: 430%;
-display: inline-block;
   border: 5px solid #000;
   padding: 10px;
 }
-.logo-containter{
-    text-align: center;
-}
-
-.logo-position{
-    display: inline-block;
-}
-
-.nav-position{
-    float: right;
-}
 
 nav li{
-font-size: 200%;
-color: #a2cffe;
-font-family: "Mukta", sans-serif;
-float: right;
+   font-family: 'Mukta', sans-serif; 
+   font-size: 250%;
 }
 
-.nav-item a:hover{
-color: #000;
+a:hover {
+    text-decoration: none;
 }
-
-.active{
-  border-bottom: 2px solid #000;
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(162, 207, 254)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.custom-toggler.navbar-toggler {
-  border-color: #000;
-  border-width: 2px;
-} 
 
 /*-----------------------------------------Homepage styling */
 
 .hero-outer{
-  height: 400px;
+  height: 660px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -72,6 +45,7 @@ color: #000;
   height: 400px;
   width: 100%;
   background: url("../images/fauximage.jpg") no-repeat center center;
+  margin-top: 200px;
   }
 
 
@@ -89,7 +63,7 @@ padding-bottom: 20px;
 
   background-color: #95d0fc;
 
-  bottom: 150px;
+  bottom: 50px;
   right: 250px;
   position: absolute;
 }
@@ -105,12 +79,15 @@ section a:hover{
 
 .paragraph-container{
     text-align: center;
+    height: 185px;
 }
 
 .paragraph{
     font-family: "Lato", sans-serif;
+    font-weight: 600;
     width: 400px;
     display: inline-block;
+    border-bottom: 100px;
 }
 
 .col a{
