@@ -98,15 +98,25 @@ section a:hover{
     color: #000;
 }
 
-table{
+/*-----------------------------------------Dates Page Styles */
+
+/*-------- Table layout help from https://www.w3schools.com/cssref/pr_tab_table-layout.asp */
+
+.dates-table{
     width: 100%;
+    height: 400px;;
+margin-top: 250px;
+table-layout: fixed;
+
+}
+.dates-table, th, td {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+  text-align: center;
+    border: 2px solid black;
 }
 
-table, th, td {
-  border: 1px solid black;
-}
-
-/*-----------------------------------------Contact Page Styles */
+/*-----------------------------------------Contact Page Styling */
 
 
 .contact-form{
