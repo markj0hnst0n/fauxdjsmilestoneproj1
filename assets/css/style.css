@@ -105,8 +105,22 @@ table{
 table, th, td {
   border: 1px solid black;
 }
+
+/*-----------------------------------------Contact Page Styles */
+
+
 .contact-form{
-    
+    margin-top: 200px;
+    display: inline-block;
+}
+
+.contact-form-heading{
+font-family: 'Sriracha', sans-serif;
+margin-bottom: 30px;
+}
+
+.contact-form-button{
+    margin-top: 30px;
 }
 
 /*-----------------------------------------Footer */
