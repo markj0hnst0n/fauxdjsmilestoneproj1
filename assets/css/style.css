@@ -13,9 +13,9 @@
     color: #95d0fc;
     font-family: 'Mukta', sans-serif;
     font-weight: 600;
-    font-size: 430%;
+    font-size: 400%;
     border: 5px solid #000;
-    padding: 10px;
+    padding: 5px;
 }
 
 nav li{
@@ -94,6 +94,28 @@ section a:hover{
     color: #000;
 }
 
+/*-----------------------------------------Audio Page Styles */
+
+.audio-container{
+    margin: 2%;
+    display: inline-block;
+}
+
+.faux-audio{
+    margin-top: 200px;
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 5px;
+    row-gap: 5px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.faux-audio img{
+  width: 100%;
+}
+
 /*-----------------------------------------Dates Page Styles */
 
 /*-------- Table layout help from https://www.w3schools.com/cssref/pr_tab_table-layout.asp */
@@ -140,6 +162,9 @@ section a:hover{
     text-align: center;
 }
 
+/*-----------------------------------------Media Queries */
+
+
 @media screen and (max-width:943px){
 .book-us-button{
     left: 200px;
@@ -147,4 +172,16 @@ section a:hover{
 
 .paragraph{
     width: 90%;
+}
+
+@media screen and (max-width: 800px){
+  .faux-audio{
+    column-count: 2;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .faux-audio{
+    column-count: 1;
+  }
 }
