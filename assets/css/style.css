@@ -96,15 +96,12 @@ section a:hover{
     display: inline-block;
 }
 
+
 .faux-audio{
+    margin: 10px;
     margin-top: 150px;
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 5px;
-    row-gap: 5px;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 85px;
 }
 
 .faux-audio img{
@@ -188,16 +185,4 @@ section a:hover{
 
 .paragraph{
     width: 90%;
-}
-
-@media screen and (max-width: 800px){
-  .faux-audio{
-    column-count: 2;
-  }
-}
-
-@media screen and (max-width: 500px){
-  .faux-audio{
-    column-count: 1;
-  }
 }
