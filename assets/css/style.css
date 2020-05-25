@@ -8,7 +8,6 @@
 
 /*-----------------------------------------Header */
 
-
 #logo{
     color: #95d0fc;
     font-family: 'Mukta', sans-serif;
@@ -43,7 +42,6 @@ a:hover {
     margin-top: 150px;
   }
 
-
 .book-us-button {
 font-family: "Sriracha", sans-serif;
     text-transform: uppercase;
@@ -75,15 +73,12 @@ section a:hover{
     height: 200px;
     margin: 0%;
     margin-top: 0%;
-    margin-bottom: 85px;
+    margin-bottom: 140px;
 }
 
-.paragraph{
-    font-family: "Lato", sans-serif;
+#paragraph{
+    font-family: "Mukta", sans-serif;
     font-weight: 600;
-    width: 30%;
-    height: 100%;
-    display: inline-block;
 }
 
 .col a{
@@ -128,6 +123,7 @@ section a:hover{
     table-layout: fixed;
     margin-bottom: 85px;
 }
+
 .dates-table, th, td {
     color: #95d0fc;
     font-family: "Lato", sans-serif;
@@ -137,7 +133,6 @@ section a:hover{
 }
 
 /*-----------------------------------------Contact Page Styling */
-
 
 .contact-form{
     margin: 0%;
@@ -163,7 +158,6 @@ section a:hover{
 }
 
 /*-----------------------------------------Media Queries */
-
 
 @media screen and (max-width:943px){
 .book-us-button{
