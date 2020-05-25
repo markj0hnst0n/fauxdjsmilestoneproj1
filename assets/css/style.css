@@ -78,7 +78,8 @@ section a:hover{
 
 #paragraph{
     font-family: "Mukta", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 110%;
     margin-top: 20px;
     margin-bottom: 95px;
 }
