@@ -5,7 +5,7 @@
 Welcome to the new homepage for Belfast DJ duo FAUX DJS!
 
 This is the hub for all potential fans and employers of Faux DJs.  It is a simple, minimal, intuative, easy to use website with emphasis on their 
-particular style of music to attract potential collaborators and also a resource for potential fans to hear more of what they can do musically and find out where 
+particular style of music to attract potential collaborators and also a resource for potential fans to hear more of what they do musically and find out where 
 to hear them play in the future.  Social media links are included so you can find out more!
 
 # UX
@@ -36,7 +36,33 @@ Here are pictures of the wireframes on their respective devices.
 
 # Features
 
+Bootstrap Navbar
+Footer Social Media Links
+Book Us Now Callout button
+Dates Page Table
+Audio Page Pictures and embedded content
+Contact form
+
 # Technologies Used
+
+Modified Embedded Code from https://soundcloud.com/ and https://www.spotify.com/
+
+[Balsamiq Wireframes](https://balsamiq.com/wireframes/)
+for creating Wireframes for initial visual development
+
+[Gitpod](https://www.gitpod.io/) for writing and testing code.
+
+[GitHub](https://github.com/) for storing code.
+
+[Google Chrome Development Tools](https://developers.google.com/web/tools/chrome-devtools) for testing code on various device sizes during development.
+
+[PicResize](https://picresize.com/) to change picture sizes for formatting purposes.
+
+[Web Formatter](https://webformatter.com/) to formating code.
+
+[Troy](http://troy.labs.daum.net/) to test website on different device types and sizes
+
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for testing code health, accessibility, speed and search engine optimisation
 
 # Testing
 
@@ -85,19 +111,62 @@ Devices emulated are as follows:
 
 ### Google Lighthouse testing documentation in PDF form [here](#)
 
+W3C HTML and CSS validators – to test for any Errors in the code
+
 
 # Deployment
 
-## Github Pages
+## Using Github Pages
+
+In the GitHub Repository from the project https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/
+
+1. Click the 'Settings' Tab.
+2. Scroll Down to the Git Hub Pages Heading.
+3. Select 'Master Branch' as the source.
+4. The Page will reload 'Settings' again.
+5. Scroll to GitHub pages heading and there will now be a clickable link https://markj0hnst0n.github.io/fauxdjsmilestoneproj1/
+6. Click this link for the live deployed page
+
+## Run Locally
+
+In the GitHub Repository from the project https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/
+
+1. Click Clone or Download
+2. Copy Git URL from the dialogue box
+3. Open your developement editor of choice and open a terminal window in a directory of your choice
+4. Use the 'git clone' command in terminal followed by the copied git URL
+5. A clone of the project will be created locally on your machine
 
 # Credits
 
 ## Content
 
+Written content by Mark Johnston
+
 ## Media
+
+Photographs by Filly Campbell and Niall Murphy used with permission.
+
+DJ Mixes by Faux Djs (Scott Lowry and Mark Johnston)
+
+## Influences
+
+My main influence for this site was simplicity.  Every element must have a function and it must work well.
+
+I took layout pointers from the following websites.
+
+https://www.guilttripcoffee.com/
+
+https://established.coffee/
+
+I also looked at the following website for some guidance on the 'dates' page:
+
+https://www.mac-demarco.com/tour/
 
 ## Acknowledgements
 
-HTML and CSS formatted using https://webformatter.com/html
+Thanks to the following people for making the project happen:
 
-## Influences
+- My Mentor Precious Itege for his guidance on key concepts and patience in explaining them!
+- My Wife Joanna Johnston for her (contructive) criticism and understanding when I lcok myself away in the attic for hours on end
+- The Code Institue Slack Community and in particular Tom Dignan for his help is centering my logo within a bootstrap navbar (which i didn't use but that's besides the point)
