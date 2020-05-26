@@ -34,12 +34,70 @@ Basic wireframes for this project were created using Balsamiq and you can find a
 
 Here are pictures of the wireframes on their respective devices.
 
-
-
 # Features
 
 # Technologies Used
 
 # Testing
 
+## On all Listed Devices emulated and all live testing scenarios the following tests were performed:
+
+- Home page opened and scrolled to read entire Bio.
+- Audio page opened and scrolled so all content was viewable and mixes tested for audio.
+- Dates page opened and scrolled to ensure all dates, venues and times were readable.
+- Home page opened and scrolled to ensure book now button is readble.
+- Contact page opened and form scrolled so that all parts a viewable.
+- Contact page form submit button clicked and required message returned to ensure form works correctly.
+- Open all pages and check that link tree can be easily viewed at all times.
+- Open all pages and check that social media icons are easily viewed at all times.
+
+### Live Testing
+
+The above tests were performed live on Apple Macbook Pro running the following browsers without issue:
+
+- Google Chrome
+- Google Chromium
+- Safari
+- Opera
+- Mozilla Firefox
+
+### Google Chrome Developer Tools
+
+The following devives were emulated on Google Chrome developer tools running the site with no issues:
+
+- Ipad
+- Ipad Pro
+- Iphones 5 to X
+- Google Pixel
+- Google Pixel XL
+
+### Troy Testing
+
+The Website was tested on the [Troy](http://troy.labs.daum.net/) site using the above tests with no issues.
+
+Devices emulated are as follows:
+
+- PC Screen
+- Ipad
+- Ipad Retina
+- Samsung S8
+- Samsung Galaxy Tab S
+
+### Google Lighthouse testing documentation in PDF form [here](#)
+
+
 # Deployment
+
+## Github Pages
+
+# Credits
+
+## Content
+
+## Media
+
+## Acknowledgements
+
+HTML and CSS formatted using https://webformatter.com/html
+
+# Influences
