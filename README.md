@@ -100,4 +100,4 @@ Devices emulated are as follows:
 
 HTML and CSS formatted using https://webformatter.com/html
 
-# Influences
+## Influences
