@@ -20,13 +20,13 @@ to hear them play in the future.  Social media links are included so you can fin
 
 - Fans should be able to check out where and when they are playing in the near future so that they can hear them play.
 
-- Potential employers should easily be able to contact Faux Djs to check availability for potential gigs
+- Potential employers should be able to find out when Faux DJs are available for their gig.
+
+- Potential employers should easily be able to contact Faux DJs to check availability for potential gigs
 
 - All users should be able to navigate the website easily and all available information on the website should be easily and intuatively accessed for 
 
 - All users should be able to find links to various social media channels, most importantly facebook and instagram, on all pages at all times.
-
--
 
 ## Wireframes
 
@@ -34,18 +34,59 @@ Basic wireframes for this project were created using Balsamiq and you can find a
 
 Here are pictures of the wireframes on their respective devices.
 
+- pics to follow
+
 # Features
 
-Bootstrap Navbar
-Footer Social Media Links
-Book Us Now Callout button
-Dates Page Table
-Audio Page Pictures and embedded content
-Contact form
+#### Bootstrap Navbar
+
+- allows all users to access Dates when Faux DJs, Audio of what they play and contact details via links to all parts of the site
+
+#### Bio Paragraph Section
+
+- allows all users to find out a bit of basic information about Faux DJs
+
+#### Footer Social Media Links
+
+- allows all users to access social media channels so that they can find more information about Faux DJs
+
+#### Book Us Now Callout button
+
+- allows potential employers to easily access contact form instantly 
+
+#### Dates Page Table
+
+-  allows fans to find out when we're next playing and allows potential employers to see if we are available when they need us
+
+#### Audio Page Pictures and embedded content
+
+- allows fans and potential employers to hear what Faux DJs do musically
+
+#### Contact form
+
+- allows potential employers to contact Faux DJs for gigs
+
+## Features left to impliment
+
+- Photos Section showing the atmosphere at a Faux DJs gig
+- Reviews section on homepage of previous employers and influencers endorsing Faux DJs
 
 # Technologies Used
 
-Modified Embedded Code from https://soundcloud.com/ and https://www.spotify.com/
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+for the structure of the website
+
+[CSS 3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
+for the look of the website
+
+[Font Awesome](https://fontawesome.com/)
+for socail media icons
+
+[Bootstrap 4](https://getbootstrap.com/)
+for navbar, grid layout strucutre & form layout structure
+
+[Asana](https://asana.com/)
+for project managment
 
 [Balsamiq Wireframes](https://balsamiq.com/wireframes/)
 for creating Wireframes for initial visual development
@@ -58,11 +99,14 @@ for creating Wireframes for initial visual development
 
 [PicResize](https://picresize.com/) to change picture sizes for formatting purposes.
 
-[Web Formatter](https://webformatter.com/) to formating code.
+[Web Formatter](https://webformatter.com/) to format HTML and CSS code.
 
 [Troy](http://troy.labs.daum.net/) to test website on different device types and sizes
 
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for testing code health, accessibility, speed and search engine optimisation
+
+Modified Embedded Code from https://soundcloud.com/ and https://www.spotify.com/
+
 
 # Testing
 
@@ -145,9 +189,11 @@ Written content by Mark Johnston
 
 ## Media
 
-Photographs by Filly Campbell and Niall Murphy used with permission.
+Photographs © Filly Campbell and Niall Murphy used with permission.
 
 DJ Mixes by Faux Djs (Scott Lowry and Mark Johnston)
+
+Laverys spotify playlist by Pete Woods with contributions from Faux DJs used with permission 
 
 ## Influences
 
@@ -168,5 +214,5 @@ https://www.mac-demarco.com/tour/
 Thanks to the following people for making the project happen:
 
 - My Mentor Precious Itege for his guidance on key concepts and patience in explaining them!
-- My Wife Joanna Johnston for her (contructive) criticism and understanding when I lcok myself away in the attic for hours on end
-- The Code Institue Slack Community and in particular Tom Dignan for his help is centering my logo within a bootstrap navbar (which i didn't use but that's besides the point)
+- My Wife Joanna Johnston for her (contructive) criticism and understanding when I lock myself away in the attic for hours on end
+- The Code Institue Slack Community and in particular Tom Dignan for his help is centering my logo within a bootstrap navbar.  I didn't go in this direction but it was a good learning expirience trying to slove this problem!
