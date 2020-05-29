@@ -244,11 +244,11 @@ Written content by Mark Johnston
 
 ## Media
 
-Photographs © Filly Campbell and Niall Murphy used with permission.
+Photographs © [Filly Campbell](https://www.facebook.com/fillycampbellphotography/) and [Niall Murphy](https://www.facebook.com/niallmurphyphotography/) used with permission.
 
 DJ Mixes by Faux Djs (Scott Lowry and Mark Johnston)
 
-Laverys spotify playlist by Pete Woods with contributions from Faux DJs used with permission 
+Laverys spotify playlist by [Pete Woods](https://www.facebook.com/DJPeteWoods/) with contributions from Faux DJs used with permission 
 
 ## Influences
 
@@ -270,4 +270,4 @@ Thanks to the following people for making the project happen:
 
 - My Mentor Precious Ijtege for his guidance on key concepts and patience in explaining them!
 - My Wife Joanna Johnston for her (contructive) criticism and understanding when I lock myself away in the attic for hours on end
-- The ]Code Institute](https://codeinstitute.net/) Slack Community and in particular Tom Dignan for his help is centering my logo within a bootstrap navbar.  I didn't go in this direction but it was a good learning expirience trying to solve this problem!
+- The [Code Institute](https://codeinstitute.net/) Slack Community and in particular Tom Dignan for his help is centering my logo within a bootstrap navbar.  I didn't go in this direction but it was a good learning expirience trying to solve this problem!
