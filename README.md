@@ -155,8 +155,12 @@ Devices emulated are as follows:
 
 ### Google Lighthouse testing documentation in PDF form [here](#)
 
-W3C HTML and CSS validators – to test for any Errors in the code
+## W3C HTML and CSS validators – to test for any Errors in the code
 
+After commit 27 w3c html code checker returned errors for css being used inline to style width for embedded soundcloud and spotify code on audio.html.  fixed this by using a bespoke class and ameding style.css with the relevant code.
+Also removed obselete elements frameborder and scrolling in embedded code as this also returned errors.  Added alt tags to img tags identified as also causing errors.
+
+Dates.html had an error as a h2 tag was used in a table.  This was also fixed.
 
 # Deployment
 
