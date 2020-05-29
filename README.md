@@ -46,6 +46,16 @@ Here are pictures of the wireframes on their respective devices.
 
 ![index.html](assets/readme/wireframes/index.html_mobile.png)
 
+## Colour Scheme
+
+A simple colour scheme was intended for this project as the design was to look minimal, also a moodboard of different photos was requested form the client to gain an understanding of the atmosphere they wanted to create with the site.
+On consultation with the client a dusky lavender pink background [colour](http://hex.wikimix.info/en/color-dd85d7) was selected to stand out visually in comparison to other websites and also
+visually and also to match the colour scheme of the photos that were selected to use for the project.
+
+Initially a light blue font colour was chosen to contrast against the pink background but this was found to score low on accessibility on google lighthouse for users with visual impairments so black was selected as tke main font colour for
+easier reading by these users.
+
+
 ### Features
 
 #### Bootstrap Navbar
@@ -221,13 +231,13 @@ My main influence for this site was simplicity.  Every element must have a funct
 
 I took layout pointers from the following websites.
 
-https://www.guilttripcoffee.com/
+[Guilt Trip Coffee Website](https://www.guilttripcoffee.com/)
 
-https://established.coffee/
+[Established Coffee Website](https://established.coffee/)
 
 I also looked at the following website for some guidance on the 'dates' page:
 
-https://www.mac-demarco.com/tour/
+[Mac Demarco Tour Page](https://www.mac-demarco.com/tour/)
 
 ## Acknowledgements
 
