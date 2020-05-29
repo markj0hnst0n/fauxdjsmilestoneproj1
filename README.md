@@ -30,13 +30,23 @@ to hear them play in the future.  Social media links are included so you can fin
 
 ## Wireframes
 
-Basic wireframes for this project were created using Balsamiq and you can find a link to the balsamiq project file [here](#)
+Basic wireframes for this project were created using Balsamiq and you can find a link to the balsamiq project file [here](assets/readme/faux_djs_website_wireframes.bmpr)
 
 Here are pictures of the wireframes on their respective devices.
 
-- pics to follow
+### index.html on desktop
 
-# Features
+![index.html](assets/readme/wireframes/index.html.png)
+
+### index.html on tablet
+
+![index.html](assets/readme/wireframes/index.html_tablet.png)
+
+- index.html on mobile
+
+![index.html](assets/readme/wireframes/index.html_mobile.png)
+
+### Features
 
 #### Bootstrap Navbar
 
@@ -154,6 +164,12 @@ Devices emulated are as follows:
 - Samsung Galaxy Tab S
 
 ### Google Lighthouse testing documentation in PDF form [here](#)
+
+After commit 28 Google Lighthouse Audit identified that iframes had no titles from embedded soundcloud and spotify code on audio.html.  Added for better accessibility on screenreader.
+
+Also added rel="noopener” to target=“_blank” to  as google lighthouse identified this these cross-origin destinations as unsafe.
+
+Amended this on index.html, dates.html and contact.html also as all social media links included target=“_blank”
 
 ## W3C HTML and CSS validators – to test for any Errors in the code
 
