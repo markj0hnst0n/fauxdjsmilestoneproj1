@@ -187,7 +187,26 @@ Amended this on index.html, dates.html and contact.html also as all social media
 
 NB: Speed Testing information on Lighthouse seemed to be variable as it could change depending on time of day.
 
+[Testing for index.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/fauxdjs_index.html_desktop.pdf)
+
+[Testing for index.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/fauxdjs_index.html_mobile.pdf)
+
+[Testing for dates.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/faux_dates.html_desktop.pdf)
+
+[Testing for dates.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/faux_dates_mobile.pdf)
+
+[Testing for audio.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/faux_audio.html_desktop.pdf)
+
+[Testing for audio.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/faux_audio.html_mobile.pdf)
+
+[Testing for contact.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/fauxdjs_contact.html_desktop.pdf)
+
+[Testing for contact.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/fauxdjs_contact.html_mobile.pdf)
+
 ## W3C HTML and CSS validators – to test for any Errors in the code
+
+
+### The following bugs were discovered and fixed using W3C validation
 
 After commit 27 w3c html code checker returned errors for css being used inline to style width for embedded soundcloud and spotify code on audio.html.  fixed this by using a bespoke class and ameding style.css with the relevant code.
 Also removed obselete elements frameborder and scrolling in embedded code as this also returned errors.  Added alt tags to img tags identified as also causing errors.
