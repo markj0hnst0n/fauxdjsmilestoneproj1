@@ -8,6 +8,8 @@ This is the hub for all potential fans and employers of Faux DJs.  It is a simpl
 particular style of music to attract potential collaborators and also a resource for potential fans to hear more of what they do musically and find out where 
 to hear them play in the future.  Social media links are included so you can find out more!
 
+To go to the live site click [here](https://markj0hnst0n.github.io/fauxdjsmilestoneproj1/)
+
 # UX
 
 ## User Stories
@@ -30,7 +32,7 @@ to hear them play in the future.  Social media links are included so you can fin
 
 ## Wireframes
 
-Basic wireframes for this project were created using Balsamiq and you can find a link to the balsamiq project file [here](assets/readme/faux_djs_website_wireframes.bmpr)
+Basic wireframes for this project were created using Balsamiq and you can find a link to the balsamiq project file [here](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/wireframes/faux_djs_website_wireframes.bmpr)
 
 Here are pictures of the wireframes on their respective devices.
 
@@ -181,6 +183,10 @@ Also added rel="noopener” to target=“_blank” to  as google lighthouse iden
 
 Amended this on index.html, dates.html and contact.html also as all social media links included target=“_blank”
 
+#### Links to lighthouse testing docs:
+
+NB: Speed Testing information on Lighthouse seemed to be variable as it could change depending on time of day.
+
 ## W3C HTML and CSS validators – to test for any Errors in the code
 
 After commit 27 w3c html code checker returned errors for css being used inline to style width for embedded soundcloud and spotify code on audio.html.  fixed this by using a bespoke class and ameding style.css with the relevant code.
@@ -245,4 +251,4 @@ Thanks to the following people for making the project happen:
 
 - My Mentor Precious Ijtege for his guidance on key concepts and patience in explaining them!
 - My Wife Joanna Johnston for her (contructive) criticism and understanding when I lock myself away in the attic for hours on end
-- The Code Institue Slack Community and in particular Tom Dignan for his help is centering my logo within a bootstrap navbar.  I didn't go in this direction but it was a good learning expirience trying to solve this problem!
+- The ]Code Institute](https://codeinstitute.net/) Slack Community and in particular Tom Dignan for his help is centering my logo within a bootstrap navbar.  I didn't go in this direction but it was a good learning expirience trying to solve this problem!
