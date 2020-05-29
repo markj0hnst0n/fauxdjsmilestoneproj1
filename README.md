@@ -233,6 +233,6 @@ https://www.mac-demarco.com/tour/
 
 Thanks to the following people for making the project happen:
 
-- My Mentor Precious Itege for his guidance on key concepts and patience in explaining them!
+- My Mentor Precious Ijtege for his guidance on key concepts and patience in explaining them!
 - My Wife Joanna Johnston for her (contructive) criticism and understanding when I lock myself away in the attic for hours on end
-- The Code Institue Slack Community and in particular Tom Dignan for his help is centering my logo within a bootstrap navbar.  I didn't go in this direction but it was a good learning expirience trying to slove this problem!
+- The Code Institue Slack Community and in particular Tom Dignan for his help is centering my logo within a bootstrap navbar.  I didn't go in this direction but it was a good learning expirience trying to solve this problem!
