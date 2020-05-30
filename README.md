@@ -18,6 +18,9 @@ To go to the live site click [here](https://markj0hnst0n.github.io/fauxdjsmilest
 
 - All users should get a short concise description about Faux Djs with some basic information about who they are and what they do
 
+![index.html](assets/readme/user_stories_pictures/user_story_description.png)
+
+
 - Fans and potential employers shoud be able to listen to dj mixes and playlists to get and idea about all the types of music they play.
 
 - Fans should be able to check out where and when they are playing in the near future so that they can hear them play.
