@@ -213,6 +213,11 @@ Also removed obselete elements frameborder and scrolling in embedded code as thi
 
 Dates.html had an error as a h2 tag was used in a table.  This was also fixed.
 
+After commit 35 w3c returned some warnings so the following amendments were made: 
+
+Amended html comments so that it is now mappable in xml files.  Previously warning  was returned on w3c validator. Added h2 child to section element on homepage to make page more descriptive to visually impaired users. Amended contact.html form to take away date and type input types as these inputs are not supported in firefox and safari respectively.
+
+
 # Deployment
 
 ## Using Github Pages

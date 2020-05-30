@@ -21,16 +21,16 @@
     padding: 5px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 nav li{
     font-family: 'Mukta', sans-serif; 
     font-size: 150%;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-/*-----------------------------------------Homepage styling */
+/*--Homepage styling */
 
 .hero-outer{
     height: 600px;
@@ -96,7 +96,7 @@ section a:hover{
     color: #2345a5;
 }
 
-/*-----------------------------------------Audio Page Styles */
+/*--Audio Page Styles */
 
 .audio-container{
     margin: 2%;
@@ -122,9 +122,9 @@ section a:hover{
     width: 100%;
 }
 
-/*-----------------------------------------Dates Page Styles */
+/*--Dates Page Styles */
 
-/*-------- Table layout help from https://www.w3schools.com/cssref/pr_tab_table-layout.asp */
+/*-- Table layout help from https://www.w3schools.com/cssref/pr_tab_table-layout.asp */
 
 #table-heading{
     font-family: "Sriracha", sans-serif;
@@ -143,7 +143,7 @@ section a:hover{
 }
 
 .dates-table, th, td {
-    color: #2345a5;
+    color: #000;
     font-family: "Lato", sans-serif;
     font-weight: 600;
     text-align: center;
@@ -151,12 +151,12 @@ section a:hover{
 }
 
 .dates-table a {
-    color: #2345a5;
+    color: #000;
     text-decoration: none;
 }
 
 .dates-table a:hover {
-    color: #000;
+    color: #2345a5;
     text-decoration: none;
 }
 
@@ -179,14 +179,14 @@ section a:hover{
     margin-top: 30px;
 }
 
-/*-----------------------------------------Footer */
+/*--Footer */
 
 #icon-size{
     font-size: 48px;
     text-align: center;
 }
 
-/*-----------------------------------------Media Queries */
+/*--Media Queries */
 
 @media screen and (max-width:943px){
 .book-us-button{
