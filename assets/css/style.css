@@ -104,7 +104,7 @@ section a:hover{
 }
 
 .audio-headings{
-    font-family: "Mukta", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .faux-audio{
@@ -127,7 +127,7 @@ section a:hover{
 /*-- Table layout help from https://www.w3schools.com/cssref/pr_tab_table-layout.asp */
 
 #table-heading{
-    font-family: "Sriracha", sans-serif;
+    font-family: "Lato", sans-serif;
     color: #000;
     margin-top: 150px;
     text-align: center;
@@ -170,7 +170,7 @@ section a:hover{
 }
 
 .contact-form-heading{
-    font-family: 'Sriracha', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 30px;
     color: #000;
 }
