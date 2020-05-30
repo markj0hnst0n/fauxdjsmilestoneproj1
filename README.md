@@ -18,20 +18,31 @@ To go to the live site click [here](https://markj0hnst0n.github.io/fauxdjsmilest
 
 - All users should get a short concise description about Faux Djs with some basic information about who they are and what they do
 
-![index.html](assets/readme/user_stories_pictures/user_story_description.png)
-
+![user_story_description](assets/readme/user_stories_pictures/user_story_description.png)
 
 - Fans and potential employers shoud be able to listen to dj mixes and playlists to get and idea about all the types of music they play.
+
+![user_story_listen](assets/readme/user_stories_pictures/user_story_listen.png)
 
 - Fans should be able to check out where and when they are playing in the near future so that they can hear them play.
 
 - Potential employers should be able to find out when Faux DJs are available for their gig.
 
+![user_story_when_where](assets/readme/user_stories_pictures/user_story_when_where.png)
+
 - Potential employers should easily be able to contact Faux DJs to check availability for potential gigs
 
-- All users should be able to navigate the website easily and all available information on the website should be easily and intuatively accessed for 
+![user_story_contact](assets/readme/user_stories_pictures/user_story_contact.png)
+
+
+- All users should be able to navigate the website easily and all available information on the website should be easily and intuatively accessed.
+
+![user_story_navigate](assets/readme/user_stories_pictures/user_story_navigate.png)
 
 - All users should be able to find links to various social media channels, most importantly facebook and instagram, on all pages at all times.
+
+![user_story_social_links](assets/readme/user_stories_pictures/user_story_social_links.png)
+
 
 ## Wireframes
 
@@ -47,7 +58,7 @@ Here are pictures of the wireframes on their respective devices.
 
 ![index.html](assets/readme/wireframes/index.html_tablet.png)
 
-- index.html on mobile
+### index.html on mobile
 
 ![index.html](assets/readme/wireframes/index.html_mobile.png)
 
