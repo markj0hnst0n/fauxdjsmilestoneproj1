@@ -231,6 +231,23 @@ After commit 35 w3c returned some warnings so the following amendments were made
 
 Amended html comments so that it is now mappable in xml files.  Previously warning  was returned on w3c validator. Added h2 child to section element on homepage to make page more descriptive to visually impaired users. Amended contact.html form to take away date and type input types as these inputs are not supported in firefox and safari respectively.
 
+### Screenshots of final w3c passes
+
+- Homepage
+
+![homepage_w3c_html_validator_screenshot](assets/readme/testing_information/homepage_w3c_html_validator_screenshot.png)
+
+- Dates page
+
+![dates_w3c_html_validator_screenshot](assets/readme/testing_information/dates_w3c_html_validator_screenshot.png)
+
+- Audio Page
+
+![audio_w3c_html_validator_screenshot](assets/readme/testing_information/audio_w3c_html_validator_screenshot.png)
+
+-Contact Page
+
+![contact_w3c_html_validator_screenshot](assets/readme/testing_information/contact_w3c_html_validator_screenshot.png)
 
 # Deployment
 
@@ -288,5 +305,6 @@ I also looked at the following website for some guidance on the 'dates' page:
 Thanks to the following people for making the project happen:
 
 - My Mentor Precious Ijtege for his guidance on key concepts and patience in explaining them!
-- My Wife Joanna Johnston for her (contructive) criticism and understanding when I lock myself away in the attic for hours on end
 - The [Code Institute](https://codeinstitute.net/) Slack Community and in particular Tom Dignan for his help is centering my logo within a bootstrap navbar.  I didn't go in this direction but it was a good learning expirience trying to solve this problem!
+- The [Code Institute](https://codeinstitute.net/) tutors and instructional material.
+- My Wife Joanna Johnston for her (contructive) criticism and understanding when I lock myself away in the attic for hours on end
