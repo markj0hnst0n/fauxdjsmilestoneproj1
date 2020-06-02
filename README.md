@@ -48,6 +48,8 @@ To go to the live site click [here](https://markj0hnst0n.github.io/fauxdjsmilest
 
 Basic wireframes for this project were created using Balsamiq and you can find a link to the balsamiq project file [here](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/wireframes/faux_djs_website_wireframes.bmpr)
 
+[Wireframes Pictures Repository](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/tree/master/assets/readme/wireframes)  
+
 Here are pictures of the wireframes on their respective devices.
 
 ### index.html on desktop
@@ -149,13 +151,33 @@ Modified Embedded Code from https://soundcloud.com/ and https://www.spotify.com/
 ## On all Listed Devices emulated and all live testing scenarios the following tests were performed:
 
 - Home page opened and scrolled to read entire Bio.
+
+![user_story_description](assets/readme/user_stories_pictures/user_story_description.png)
+
 - Audio page opened and scrolled so all content was viewable and mixes tested for audio.
+
+![user_story_listen](assets/readme/user_stories_pictures/user_story_listen.png)
+
 - Dates page opened and scrolled to ensure all dates, venues and times were readable.
+
+![user_story_when_where](assets/readme/user_stories_pictures/user_story_when_where.png)
+
 - Home page opened and scrolled to ensure book now button is readble.
+
+![user_story_description](assets/readme/user_stories_pictures/user_story_description.png)
+
 - Contact page opened and form scrolled so that all parts a viewable.
 - Contact page form submit button clicked and required message returned to ensure form works correctly.
+
+![user_story_contact](assets/readme/user_stories_pictures/user_story_contact.png)
+
 - Open all pages and check that link tree can be easily viewed at all times.
+
+![user_story_navigate](assets/readme/user_stories_pictures/user_story_navigate.png)
+
 - Open all pages and check that social media icons are easily viewed at all times.
+
+![user_story_social_links](assets/readme/user_stories_pictures/user_story_social_links.png)
 
 ### Live Testing
 
