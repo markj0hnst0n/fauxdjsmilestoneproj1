@@ -40,10 +40,14 @@ nav li{
 }
 
 #hero-image{
-    height: 420px;
+    height: 600px;
     width: 100%;
     background: url("../images/fauxdjsheroimage.jpg") no-repeat center center;
     margin-top: 150px;
+    animation-name: main-pic-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: backwards;
+    margin-bottom: 10px;
   }
 
 .book-us-button {
@@ -93,7 +97,7 @@ section a:hover{
     text-align: center;
     height: 200px;
     margin: 0%;
-    margin-top: 0%;
+    margin-top: 20px;
     margin-bottom: 140px;
 }
 
@@ -204,6 +208,15 @@ section a:hover{
 }
 
 /*--Media Queries */
+
+@keyframes main-pic-zoom{
+  from{
+    transform: scale(1)
+  }
+  to{
+    transform:scale(1.1)
+  }
+}
 
 @media screen and (max-width:943px){
 .book-us-button{
