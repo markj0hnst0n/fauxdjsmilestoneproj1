@@ -18,51 +18,24 @@ To go to the live site click [here](https://markj0hnst0n.github.io/fauxdjsmilest
 
 - All users should get a short concise description about Faux Djs with some basic information about who they are and what they do
 
-![user_story_description](assets/readme/user_stories_pictures/user_story_description.png)
-
 - Fans and potential employers shoud be able to listen to dj mixes and playlists to get and idea about all the types of music they play.
-
-![user_story_listen](assets/readme/user_stories_pictures/user_story_listen.png)
 
 - Fans should be able to check out where and when they are playing in the near future so that they can hear them play.
 
 - Potential employers should be able to find out when Faux DJs are available for their gig.
 
-![user_story_when_where](assets/readme/user_stories_pictures/user_story_when_where.png)
-
 - Potential employers should easily be able to contact Faux DJs to check availability for potential gigs
-
-![user_story_contact](assets/readme/user_stories_pictures/user_story_contact.png)
-
 
 - All users should be able to navigate the website easily and all available information on the website should be easily and intuatively accessed.
 
-![user_story_navigate](assets/readme/user_stories_pictures/user_story_navigate.png)
-
 - All users should be able to find links to various social media channels, most importantly facebook and instagram, on all pages at all times.
-
-![user_story_social_links](assets/readme/user_stories_pictures/user_story_social_links.png)
 
 
 ## Wireframes
 
-Basic wireframes for this project were created using Balsamiq and you can find a link to the balsamiq project file [here](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/wireframes/faux_djs_website_wireframes.bmpr)
+Basic wireframes for this project were created using Balsamiq and you can find a link to the balsamiq project file [here](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/wireframes/faux_djs_website_wireframes.bmpr)
 
-[Wireframes Pictures Repository](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/tree/master/assets/readme/wireframes)  
-
-Here are pictures of the wireframes on their respective devices.
-
-### index.html on desktop
-
-![index.html](assets/readme/wireframes/index.html.png)
-
-### index.html on tablet
-
-![index.html](assets/readme/wireframes/index.html_tablet.png)
-
-### index.html on mobile
-
-![index.html](assets/readme/wireframes/index.html_mobile.png)
+[Wireframes Pictures Repository](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/tree/master/wireframes)
 
 ## Colour Scheme
 
@@ -148,7 +121,25 @@ Modified Embedded Code from https://soundcloud.com/ and https://www.spotify.com/
 
 # Testing
 
-## On all Listed Devices emulated and all live testing scenarios the following tests were performed:
+### Live Testing
+
+The above tests were performed live on Apple Macbook Pro running the following browsers without issue:
+
+- Google Chrome
+- Google Chromium
+- Safari
+- Opera
+- Mozilla Firefox
+
+The following devices were emulated on Google Chrome developer tools running the site with no issues:
+
+- Ipad
+- Ipad Pro
+- Iphones 5 to X
+- Google Pixel
+- Google Pixel XL
+
+### On all Listed Devices emulated and all live testing scenarios the following tests were performed:
 
 - Home page opened and scrolled to read entire Bio.
 
@@ -179,25 +170,7 @@ Modified Embedded Code from https://soundcloud.com/ and https://www.spotify.com/
 
 ![user_story_social_links](assets/readme/user_stories_pictures/user_story_social_links.png)
 
-### Live Testing
 
-The above tests were performed live on Apple Macbook Pro running the following browsers without issue:
-
-- Google Chrome
-- Google Chromium
-- Safari
-- Opera
-- Mozilla Firefox
-
-### Google Chrome Developer Tools
-
-The following devives were emulated on Google Chrome developer tools running the site with no issues:
-
-- Ipad
-- Ipad Pro
-- Iphones 5 to X
-- Google Pixel
-- Google Pixel XL
 
 ### Troy Testing
 
@@ -213,31 +186,35 @@ Devices emulated are as follows:
 
 ### Google Lighthouse testing documentation in PDF form [here](#)
 
-After commit 28 Google Lighthouse Audit identified that iframes had no titles from embedded soundcloud and spotify code on audio.html.  Added for better accessibility on screenreader.
+Bug: After commit 28 Google Lighthouse Audit identified that iframes had no titles from embedded soundcloud and spotify code on audio.html.  
 
-Also added rel="noopener” to target=“_blank” to  as google lighthouse identified this these cross-origin destinations as unsafe.
+Debug: Added iframe titlesfor better accessibility on screenreader.
 
-Amended this on index.html, dates.html and contact.html also as all social media links included target=“_blank”
+Bug: google lighthouse identified this these cross-origin links unsafe destinations in soundcloud links on audio.html.
+
+Debug: added rel="noopener” to target=“_blank”.  Amended this on index.html, dates.html and contact.html also as all social media links included target=“_blank”
+
 
 #### Links to lighthouse testing docs:
 
 NB: Speed Testing information on Lighthouse seemed to be variable as it could change depending on time of day.
 
-[Testing for index.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/fauxdjs_index.html_desktop.pdf)
+[Testing for index.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/fauxdjs_index.html_desktop.pdf)
 
-[Testing for index.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/fauxdjs_index.html_mobile.pdf)
+[Testing for index.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/fauxdjs_index.html_mobile.pdf)
 
-[Testing for dates.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/faux_dates.html_desktop.pdf)
+[Testing for dates.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/faux_dates.html_desktop.pdf)
 
-[Testing for dates.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/faux_dates_mobile.pdf)
+[Testing for dates.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/faux_dates_mobile.pdf)
 
-[Testing for audio.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/faux_audio.html_desktop.pdf)
+[Testing for audio.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/faux_audio.html_desktop.pdf)
 
-[Testing for audio.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/faux_audio.html_mobile.pdf)
+[Testing for audio.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/faux_audio.html_mobile.pdf)
 
-[Testing for contact.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/fauxdjs_contact.html_desktop.pdf)
+[Testing for contact.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/fauxdjs_contact.html_desktop.pdf)
 
-[Testing for contact.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/assets/readme/testing_information/fauxdjs_contact.html_mobile.pdf)
+[Testing for contact.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/fauxdjs_contact.html_mobile.pdf)
+
 
 ## W3C HTML and CSS validators – to test for any Errors in the code
 
@@ -257,19 +234,19 @@ Amended html comments so that it is now mappable in xml files.  Previously warni
 
 - Homepage
 
-![homepage_w3c_html_validator_screenshot](assets/readme/testing_information/homepage_w3c_html_validator_screenshot.png)
+![homepage_w3c_html_validator_screenshot](testing_information/homepage_w3c_html_validator_screenshot.png)
 
 - Dates page
 
-![dates_w3c_html_validator_screenshot](assets/readme/testing_information/dates_w3c_html_validator_screenshot.png)
+![dates_w3c_html_validator_screenshot](testing_information/dates_w3c_html_validator_screenshot.png)
 
 - Audio Page
 
-![audio_w3c_html_validator_screenshot](assets/readme/testing_information/audio_w3c_html_validator_screenshot.png)
+![audio_w3c_html_validator_screenshot](testing_information/audio_w3c_html_validator_screenshot.png)
 
 -Contact Page
 
-![contact_w3c_html_validator_screenshot](assets/readme/testing_information/contact_w3c_html_validator_screenshot.png)
+![contact_w3c_html_validator_screenshot](testing_information/contact_w3c_html_validator_screenshot.png)
 
 # Deployment
 
