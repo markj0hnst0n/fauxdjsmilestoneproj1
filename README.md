@@ -326,7 +326,7 @@ I also looked at the following website for some guidance on the 'dates' page:
 
 Thanks to the following people for making the project happen:
 
-- My Mentor Precious Ijtege for his guidance on key concepts and patience in explaining them!
+- My Mentor Precious Ijege for his guidance on key concepts and patience in explaining them!
 - The [Code Institute](https://codeinstitute.net/) Slack Community and in particular Tom Dignan for his help is centering my logo within a bootstrap navbar.  I didn't go in this direction but it was a good learning expirience trying to solve this problem!
 - The [Code Institute](https://codeinstitute.net/) tutors and instructional material.
 - My Wife Joanna Johnston for her (contructive) criticism and understanding when I lock myself away in the attic for hours on end
