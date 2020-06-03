@@ -228,10 +228,8 @@ section a:hover{
 @media screen and (max-width:350px){
 .book-us-button{
     left: 120px;
-}
+}}
 
 .paragraph{
     width: 90%;
-}
-
-}
+}}
