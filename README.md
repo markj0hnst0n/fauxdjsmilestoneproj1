@@ -171,23 +171,6 @@ Devices emulated are as follows:
 
 NB: Speed Testing information on Lighthouse seemed to be variable as it could change depending on time of day.
 
-[Testing for index.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/fauxdjs_index.html_desktop.pdf)
-
-[Testing for index.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/fauxdjs_index.html_mobile.pdf)
-
-[Testing for dates.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/faux_dates.html_desktop.pdf)
-
-[Testing for dates.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/faux_dates_mobile.pdf)
-
-[Testing for audio.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/faux_audio.html_desktop.pdf)
-
-[Testing for audio.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/faux_audio.html_mobile.pdf)
-
-[Testing for contact.html on Desktop](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/fauxdjs_contact.html_desktop.pdf)
-
-[Testing for contact.html on Mobile](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/blob/master/testing_information/fauxdjs_contact.html_mobile.pdf)
-
-
 ## W3C HTML and CSS validators – to test for any Errors in the code
 
 
@@ -255,6 +238,9 @@ Bug: Date and time input types for form are not supported in firefox and safari 
 
 Debug: Amended contact.html form to take away these and used text types and placeholder info to guide users.
 
+Bug: Links did not open in new window on dates page.
+
+Debug: added target"_blank" to links to make them open in new window.
 
 # Deployment
 
