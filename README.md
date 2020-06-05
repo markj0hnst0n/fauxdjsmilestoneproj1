@@ -10,6 +10,7 @@ to hear them play in the future.  Social media links are included so you can fin
 
 To go to the live site click [here](https://markj0hnst0n.github.io/fauxdjsmilestoneproj1/)
 
+
 # UX
 
 ## User Stories
@@ -82,6 +83,7 @@ easier reading by these users.
 - Photos Section showing the atmosphere at a Faux DJs gig
 - Reviews section on homepage of previous employers and influencers endorsing Faux DJs
 
+
 # Technologies Used
 
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -121,6 +123,24 @@ Modified Embedded Code from https://soundcloud.com/ and https://www.spotify.com/
 
 # Testing
 
+### On all Listed Devices the following tests were performed:
+
+- Home page opened and scrolled to read entire Bio.
+
+- Audio page opened and scrolled so all content was viewable and mixes tested for audio.
+
+- Dates page opened and scrolled to ensure all dates, venues and times were readable.
+
+- Home page opened and scrolled to ensure book now button is readble.
+
+- Contact page opened and form scrolled so that all parts a viewable.
+
+- Contact page form submit button clicked and required message returned to ensure form works correctly.
+
+- Open all pages and check that link tree can be easily viewed at all times.
+
+- Open all pages and check that social media icons are easily viewed at all times.
+
 The tests were performed live on Apple Macbook Pro running the following browsers without issue:
 
 - Google Chrome
@@ -128,6 +148,8 @@ The tests were performed live on Apple Macbook Pro running the following browser
 - Safari
 - Opera
 - Mozilla Firefox
+
+Screenshots showing these user stories live on desktiop can be found [here](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/tree/master/readme)
 
 The following devices were emulated on Google Chrome developer tools running the site with no issues:
 
@@ -147,32 +169,11 @@ Devices emulated are as follows:
 - Samsung S8
 - Samsung Galaxy Tab S
 
-### On all Listed Devices the following tests were performed:
-
-- Home page opened and scrolled to read entire Bio.
-
-- Audio page opened and scrolled so all content was viewable and mixes tested for audio.
-
-- Dates page opened and scrolled to ensure all dates, venues and times were readable.
-
-- Home page opened and scrolled to ensure book now button is readble.
-
-- Contact page opened and form scrolled so that all parts a viewable.
-
-- Contact page form submit button clicked and required message returned to ensure form works correctly.
-
-- Open all pages and check that link tree can be easily viewed at all times.
-
-- Open all pages and check that social media icons are easily viewed at all times.
-
-### Google Lighthouse testing documentation in PDF form [here](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/tree/master/testing_information)
-
-#### Links to lighthouse testing docs:
+### Google Lighthouse testing documentation for desktop and mobile for all pages can be found in PDF form [here](https://github.com/markj0hnst0n/fauxdjsmilestoneproj1/tree/master/testing_information)
 
 NB: Speed Testing information on Lighthouse seemed to be variable as it could change depending on time of day.
 
-## W3C HTML and CSS validators – to test for any Errors in the code
-
+### W3C HTML and CSS validators – to test for any Errors in the code
 
 ### Screenshots of final w3c passes
 
@@ -241,6 +242,7 @@ Debug: Amended contact.html form to take away these and used text types and plac
 Bug: Links did not open in new window on dates page.
 
 Debug: added target"_blank" to links to make them open in new window.
+
 
 # Deployment
 
