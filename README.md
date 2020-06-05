@@ -189,9 +189,13 @@ NB: Speed Testing information on Lighthouse seemed to be variable as it could ch
 
 ![audio_w3c_html_validator_screenshot](testing_information/audio_w3c_html_validator_screenshot.png)
 
--Contact Page
+- Contact Page
 
 ![contact_w3c_html_validator_screenshot](testing_information/contact_w3c_html_validator_screenshot.png)
+
+- CSS information
+
+![css_w3c_html_validator_screenshot](testing_information/css_w3c_validator_screenshot.png)
 
 ### Debugging information
 
