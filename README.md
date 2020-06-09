@@ -44,8 +44,8 @@ A simple colour scheme was intended for this project as the design was to look m
 On consultation with the client a dusky lavender pink background [colour](http://hex.wikimix.info/en/color-dd85d7) was selected to stand out visually in comparison to other websites and also
 visually and also to match the colour scheme of the photos that were selected to use for the project.
 
-Initially a light blue font colour was chosen to contrast against the pink background but this was found to score low on accessibility on google lighthouse for users with visual impairments so black was selected as tke main font colour for
-easier reading by these users.
+Initially a light blue font colour was chosen to contrast against the pink background but this was found to score low on accessibility on google lighthouse for users with visual impairments so black was selected as the main font colour for
+easier reading by all users.
 
 
 ### Features
@@ -72,7 +72,7 @@ easier reading by these users.
 
 #### Audio Page Pictures and embedded content
 
-- allows fans and potential employers to hear what Faux DJs do musically
+- allows fans and potential employers to hear what music Faux DJs play
 
 #### Contact form
 
@@ -93,13 +93,13 @@ for the structure of the website
 for the look of the website
 
 [Font Awesome](https://fontawesome.com/)
-for socail media icons
+for social media icons
 
 [Bootstrap 4](https://getbootstrap.com/)
 for navbar, grid layout strucutre & form layout structure
 
 [Asana](https://asana.com/)
-for project managment
+for project management
 
 [Balsamiq Wireframes](https://balsamiq.com/wireframes/)
 for creating Wireframes for initial visual development
